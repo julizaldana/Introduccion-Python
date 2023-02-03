@@ -7,8 +7,7 @@
 def factorial(numero):
     if (numero == 1 or numero==0):
         return 1
-    else:
-        return (numero*factorial(numero-1))
+    return (numero*factorial(numero-1))
 
 
 def menu():
@@ -25,3 +24,5 @@ menu()
 # 2 * 1
 # 1 *
 # Se implementa ese patron matematico
+
+#5*fact(5-1)->5*fact(4)->4*fact(3)->3*fact(2)->2*fact(1) luego se retorna un 1 
